@@ -1,3 +1,7 @@
+# Programming Assinment 2
+
+2015 Bojan Marković
+
 ### Introduction
 
 This second programming assignment will require you to write an R
