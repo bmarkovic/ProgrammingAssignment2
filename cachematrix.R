@@ -1,7 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Implents an object (list) that expands matrices
+## with matrix inverse caching functionality
 
-## Write a short comment describing this function
+## Takes a matrix as an argument. Returns a list functioning as
+## an object extending matrix functionality with getters, setters
+## and ability to store/retreive cached copy of matrice's inverse
 makeCacheMatrix <- function(x = matrix()) {
   
   inv <- NULL
@@ -17,7 +19,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 }
 
-## Write a short comment describing this function
+## Returns a matrix that is the inverse of argument. Takes a makeCacheMatrix
+## object as an argument. If the argument contains a matrix in x$inv, it is
+## returned without performing solve()
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   
